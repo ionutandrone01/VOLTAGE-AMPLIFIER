@@ -1,0 +1,155 @@
+(ExpressProject "432C_ANDRONE_Ionut_P1_Amplificator"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\orcad\tools\capture\library\pspice\1n4148.lib"
+        (Type "Schematic Library"))
+      (File "c:\orcad\tools\capture\library\pspice\bc846b.lib"
+        (Type "Schematic Library"))
+      (File "c:\orcad\tools\capture\library\pspice\bc856b.lib"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\432c_androne_ionut_p1_amplificator.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\IMPORTANT\432C_ANDRONE_IONUT_P1\432C_ANDRONE_IONUT_P1_AMPLIFICATOR.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\IMPORTANT\432C_ANDRONE_IONUT_P1\432C_ANDRONE_IONUT_P1_AMPLIFICATOR.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "allegro\432C_ANDRONE_IONUT_P1_AMPLIFICATOR.brd")
+    ("Allegro Netlist Remove Etch" "TRUE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File
+       ".\432c_androne_ionut_p1_amplificator-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\432c_androne_ionut_p1_amplificator.bom"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\432c_androne_ionut_p1_amplificator.drc"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\432c_androne_ionut_p1_amplificator-pspicefiles\schematic1\amplificator.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\432c_androne_ionut_p1_amplificator-pspicefiles\schematic1\amplificator.sim"
+        (DisplayName "SCHEMATIC1-amplificator")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "c:\orcad\tools\capture\library\pspice\1n4148.lib"
+        (Type "Schematic Library"))
+      (File "c:\orcad\tools\capture\library\pspice\bc846b.lib"
+        (Type "Schematic Library"))
+      (File "c:\orcad\tools\capture\library\pspice\bc856b.lib"
+        (Type "Schematic Library")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\IMPORTANT\P1_2021_432C_Androne_Ionut_ AAF_N3_OrCAD\Schematics\432c_androne_ionut_p1_amplificator.dsn")
+      (Path "Design Resources"
+         "C:\IMPORTANT\P1_2021_432C_Androne_Ionut_ AAF_N3_OrCAD\Schematics\432c_androne_ionut_p1_amplificator.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\IMPORTANT\P1_2021_432C_Androne_Ionut_ AAF_N3_OrCAD\Schematics\432c_androne_ionut_p1_amplificator.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 386"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1752 52 477")
+        (Scroll "-453 119")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\IMPORTANT\P1_2021_432C_ANDRONE_IONUT_ AAF_N3_ORCAD\SCHEMATICS\432C_ANDRONE_IONUT_P1_AMPLIFICATOR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\ORCAD\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Ionut")
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))
